@@ -78,7 +78,7 @@ it is HTML, CSS, or JavaScript functionality.
 
 3. Open the style.css file inside the css folder
   - Add your styles to this file to make this information card look sweet. I went
-    ahead and linked the stylesheet to the HTML.  
+    ahead and linked the stylesheet to the HTML.
 
 
 ## Tasks
