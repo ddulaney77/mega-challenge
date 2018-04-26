@@ -1,0 +1,19 @@
+//Buttons:
+
+.btn {
+  @include btn-bg-colors($theme-colors);
+  @extend %btn;
+
+  &:hover {
+    opacity: 0.70;
+
+    &:active {
+      opacity: initial;
+    }
+  }
+}
+
+[class^="btn--"] {
+  color: white;
+  text-transform: uppercase;
+}
