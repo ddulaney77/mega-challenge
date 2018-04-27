@@ -309,56 +309,24 @@ ul {
 a {
   text-decoration: none; }
 
-.btn {
-  display: block;
-  border-radius: 5px; }
-
-ul {
-  padding: 0;
-  list-style-type: none; }
+body {
+  background-color: #333; }
 
 li {
-  overflow: hidden;
-  text-indent: -9999px;
-  width: 400px;
-  height: 2em; }
-
-/*Convert the code below into SASS mixin/map*/
-li:nth-child(1) {
-  background: red; }
-
-li:nth-child(2) {
-  background: orange; }
-
-li:nth-child(3) {
-  background: yellow; }
-
-li:nth-child(4) {
-  background: green; }
-
-li:nth-child(5) {
-  background: blue; }
-
-li:nth-child(6) {
-  background: purple; }
-
-.btn--default {
-  background-color: #87cefa; }
-.btn--success {
-  background-color: #90ee90; }
-.btn--error {
-  background-color: #ff6347; }
-.btn--warning {
-  background-color: #ffa07a; }
-.btn--info {
-  background-color: #9370db; }
-.btn:hover {
-  opacity: 0.70; }
-  .btn:hover:active {
-    opacity: initial; }
-
-[class^="btn--"] {
-  color: white;
-  text-transform: uppercase; }
+  display: block;
+  height: 30px;
+  margin: 2px; }
+  li.rainbow__line--1 {
+    background-color: #d44fe9; }
+  li.rainbow__line--2 {
+    background-color: #46bcde; }
+  li.rainbow__line--3 {
+    background-color: #52d273; }
+  li.rainbow__line--4 {
+    background-color: #e94f64; }
+  li.rainbow__line--5 {
+    background-color: #e57254; }
+  li.rainbow__line--6 {
+    background-color: #e5c454; }
 
 /*# sourceMappingURL=styles.css.map */

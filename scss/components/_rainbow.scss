@@ -1,0 +1,10 @@
+body {
+  background-color: $mine-shaft;
+}
+
+li {
+  display: block;
+  height: 30px;
+  margin: 2px;
+  @include rainbow-colors($rainbow-colors);
+}
