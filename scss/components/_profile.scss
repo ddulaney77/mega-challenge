@@ -1,10 +1,6 @@
-//  h3 {
-// color: green;
-// }
-//
-// p {
-//   color: purple;
-// }
+
+
+
 //
 //
 //
@@ -53,11 +49,20 @@
 // transform: translateZ(-110px) rotateY(180deg);
 // }
 
-
+.photo-desc{
+	background-color: $white;
+	h3 {
+ 		color: $emerald;
+	}
+	p {
+		color: $lavendar;
+	}
+}
 .cube-container {
 	box-shadow: 0 18px 40px 5px rgba(0,0,0,.4);
 	perspective: 800px;
   max-width: 200px;
+	margin: 50px auto;
 }
 
 .photo-cube {
@@ -88,6 +93,8 @@
 .back {
 	transform: translateZ(-110px) rotateY(270deg);
 	transform-origin: center left;
+	padding: 10px;
+	text-align: center;
 }
 
 .left {
@@ -97,4 +104,14 @@
 
 .right {
 	transform: translateZ(-110px) rotateY(180deg);
+}
+
+.profile-card {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	width: 350px;
+	height:400px;
+	background-color: $white;
+	padding: 20px;
 }
